@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    max-height: 700px;
+    background-color: rgb(25, 136, 187);
+}
+p{
+    font-size: 12px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    position: fixed;
+}
+h3{
+    padding: 10px;
+}
+
+.wrapper {
+    position: relative;
+    width: max-content;
+    height: 100vh;
+    max-height: 640px;
+
+}
+nav{
+    background-color: rgb(7, 70, 99);
+    height: 40px;
+    width: 1830px;
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 350px);
+    gap: 20px;
+    width: max-content;
+    /*padding-top: 80px;*/
+
+    
+}
+.first {
+    margin: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #c2c2c2;
+    max-height: 600px;
+
+}
+.card {
+    margin: 10px auto;
+    padding: 5px;
+    width: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #444343;
+
+}
+.status {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    width: 300px;
+
+}
+.status img{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+.avatar img{
+    width: 25px;
+    height: 25px;
+    margin: 5px
+}
+span{
+    font-size: 15px;
+}
+.avatar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+.stat{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: baseline;
+    justify-content: flex-end;
+}
